@@ -44,6 +44,7 @@ const App = () => {
     } catch (err) {
       setError('Arama sırasında bir hata oluştu!')
       setLoading(false)
+      console.log(err)
     }
   }
 
