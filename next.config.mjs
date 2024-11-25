@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  env: {
+    REACT_APP_RECIPE_API_KEY: process.env.REACT_APP_RECIPE_API_KEY,
+  },
+}
 
-export default nextConfig;
+export default nextConfig
